@@ -9,7 +9,7 @@
 ## 2. Eigen 
 
 ### 2.1 Matrix as a transformation on a vector
-![Vector_transformation_with_Matrix_rotation](https://github.com/adityarasam/linearAlgebra101/tree/main/matrix_decomposition/Vector_transformation_with_Matrix_rotation.png)
+![screenshot from image](https://github.com/adityarasam/linearAlgebra101/tree/main/matrix_decomposition/Vector_transformation_with_Matrix_rotation.png)
 
 ### 2.2 Eigen Values and Eigen Vector
 
