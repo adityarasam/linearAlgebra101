@@ -27,7 +27,7 @@ if(debug=="true"):
 orig = [0,0]
 
 
-fig, ax1 = plt.subplots(1,1,  figsize=(10,10))
+fig, ax1 = plt.subplots(1,1,  figsize=(5,5))
 plt.subplots_adjust(wspace=0.4)
 
 
