@@ -10,6 +10,12 @@
 
 ### 2.1 Matrix as a transformation on a vector
 ![Vector_transformation_with_Matrix_rotation](https://user-images.githubusercontent.com/34051411/110730097-dd99ab80-81ed-11eb-825c-b30421ec8f9a.png)
+Fig. 1
+
+
+![Vector_transformation_with_Matrix_rotationA_scalingB](https://user-images.githubusercontent.com/34051411/110730204-0b7ef000-81ee-11eb-96b8-953528a56bae.png)
+
+Fig. 2
 
 ### 2.2 Eigen Values and Eigen Vector
 
