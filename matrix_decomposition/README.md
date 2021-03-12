@@ -14,9 +14,9 @@ Many complex matrix operations cannot be solved efficiently/stably with limited 
 Consider a vector X = [1 0]. Any matrix A when multiplied with a vector X, can be thought of as a transformation on the vector X to produce a new vector A.X.
 
 Lets say A is a 2d-rotation matrix
-A = [[cos a -sin a],[sin a cos a]] 
+A = [[cos a  -sin a],[sin a  cos a]] 
 
-so A will rotate vector X by 'a' deg to give A.X as shown in following figure
+so A will rotate vector X by 'a' deg to give A.X as shown in following figure (a=45 deg)
 
 ![Vector_transformation_with_Matrix_rotation](https://user-images.githubusercontent.com/34051411/110730097-dd99ab80-81ed-11eb-825c-b30421ec8f9a.png)
 
@@ -28,7 +28,12 @@ Now say B = [[2 0],[0 9]]. B when multiplied to X will scale X, performing scali
 
 Fig. 2
 
+
+Here matrix A performs rotation and scaling(shrinking) of vector X while B performs only scaling. If a matrix only performs a scaling transformation on any vector (on multiplication), then that vector is eigen vector of that matrix, and the amount of scaling is the eigen value.Here B does not change the direction of X but only scales it in its direction, So X can be called as eigen vector of B with 2 as the corresponding eigen value.
+
 ### 2.2 Eigen Values and Eigen Vector
+
+Now lets consider a matrix C = [[3 2],[0 2]] 
 
 ### 2.3 The thing with Symmetric matrices
 
