@@ -37,7 +37,7 @@ Now lets consider a matrix C = [[3 2],[0 2]] and a group of vectors that represe
 
 ![eigen_explanation](https://user-images.githubusercontent.com/34051411/111101813-0d63ee80-8521-11eb-8769-3ffc5c8d934b.png)
 
-Consider two sample vectors x1 and x2 which get mapped to Cx1 and Cx2. Here for x1 both magnitude and direction changes but for x2 only magnitude changes while direction is retained. So for vectors like x2 which only undergo change in magnitude on multiplying by C can be seen equivalent as to getting multiplied by a scalar lambda λ.  
+Consider two sample vectors x1 and x2 which get mapped to Cx1 and Cx2. Here for x1 both magnitude and direction changes but for x2 only magnitude changes while direction is retained. So for vectors like x2 which only undergo change in magnitude on multiplying by C can be seen equivalent as to getting multiplied by a scalar lambda 'λ'. For x2 λ is 3.
 ```
 Cx2 = λ.x2
 ```
