@@ -35,7 +35,7 @@ Here matrix A performs rotation and scaling(shrinking) of vector X while B perfo
 
 Now lets consider a matrix C = [[3 2],[0 2]] and a group of vectors that represents a circle with unit radius. The vectors have general form X = [xi,yi] where xi^2 + yi^2 = 1. Multiplying these vectors with C gives following mapping from left figure to right
 
-![eigen_explanation](https://user-images.githubusercontent.com/34051411/111101813-0d63ee80-8521-11eb-8769-3ffc5c8d934b.png)
+![eigen_explanation](https://user-images.githubusercontent.com/34051411/111103520-0b9c2a00-8525-11eb-9dd6-0eea92e290c0.png)
 
 Consider two sample vectors x1 and x2 which get mapped to Cx1 and Cx2. Here for x1 both magnitude and direction changes but for x2 only magnitude changes while direction is retained. So for vectors like x2 which only undergo change in magnitude on multiplying by C can be seen equivalent as to getting multiplied by a scalar lambda 'λ'. For x2 λ is 3.
 ```
