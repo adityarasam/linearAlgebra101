@@ -33,8 +33,20 @@ Here matrix A performs rotation and scaling(shrinking) of vector X while B perfo
 
 ### 2.2 Eigen Values and Eigen Vector
 
-Now lets consider a matrix C = [[3 2],[0 2]] 
+Now lets consider a matrix C = [[3 2],[0 2]] and a group of vectors that represents a circle with unit radius. The vectors have general form X = [xi,yi] where xi^2 + yi^2 = 1. Multiplying these vectors with C gives following mapping from left figure to right
 
+![eigen_explanation](https://user-images.githubusercontent.com/34051411/111101813-0d63ee80-8521-11eb-8769-3ffc5c8d934b.png)
+
+Consider two sample vectors x1 and x2 which get mapped to Cx1 and Cx2. Here for x1 both magnitude and direction changes but for x2 only magnitude changes while direction is retained. So for vectors like x2 which only undergo change in magnitude on multiplying by C can be seen equivalent as to getting multiplied by a scalar lambda λ.  
+```
+Cx2 = λ.x2
+```
+This is not true for all the vectors of X. In fact for matrix C only some of the vectors of X satisfy this property/constraint. These special vectors are called as eigen vectors and their corresponding scaling factor 'λ' is called eigen value.
+
+Definition: So the eigenvector of an n×n matrix C is defined as a nonzero vector u such that
+```
+Cx2 = λ.x2
+```
 ### 2.3 The thing with Symmetric matrices
 
 ### 2.4 Basis of Vector Space
