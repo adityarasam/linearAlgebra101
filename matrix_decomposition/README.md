@@ -43,7 +43,7 @@ Cx2 = λ.x2
 ```
 This is not true for all the vectors of X. In fact for matrix C only some of the vectors of X satisfy this property/constraint. These special vectors are called as eigen vectors and their corresponding scaling factor 'λ' is called eigen value.
 
-**Definition: So the eigenvector of an n×n matrix C is defined as a nonzero vector u such that **
+**Definition: So the eigenvector of an n×n matrix C is defined as a nonzero vector u such that**
 ```
 C.u = λ.u
 ```
